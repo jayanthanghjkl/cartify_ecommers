@@ -2,6 +2,7 @@
 
 Cartify is a **modern, elegant, and fully functional e-commerce web app** built using **React**, **Zustand**, and **Zod**.  
 It delivers a seamless shopping experience with product browsing, cart management, and secure checkout — all styled with a premium color theme inspired by [Webflow Store Starter Template](https://store-starter-template.webflow.io/) and [HTMLCodex E-Shop Template](https://htmlcodex.com/demo/?item=1176).
+# the web is live @ https://cartifyecommers.vercel.app/
 
 ---
 
