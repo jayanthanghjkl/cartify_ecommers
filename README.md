@@ -2,7 +2,6 @@
 
 Cartify is a **modern, elegant, and fully functional e-commerce web app** built using **React**, **Zustand**, and **Zod**.  
 It delivers a seamless shopping experience with product browsing, cart management, and secure checkout — all styled with a premium color theme inspired by [Webflow Store Starter Template](https://store-starter-template.webflow.io/) and [HTMLCodex E-Shop Template](https://htmlcodex.com/demo/?item=1176).
-# the web is live @ https://cartifyecommers.vercel.app/
 
 ---
 
@@ -35,3 +34,81 @@ It delivers a seamless shopping experience with product browsing, cart managemen
 
 ## 📂 Folder Structure
 
+```
+
+cartify/
+┣ src/
+┃ ┣ components/
+┃ ┃ ┣ Header.jsx
+┃ ┃ ┣ Cart.jsx
+┃ ┃ ┗ LoginDropdown.jsx
+┃ ┣ pages/
+┃ ┃ ┣ Home.jsx
+┃ ┃ ┗ Checkout.jsx
+┃ ┣ store/
+┃ ┃ ┣ cartStore.js
+┃ ┃ ┗ authStore.js
+┃ ┣ schemas/
+┃ ┃ ┣ checkoutSchema.js
+┃ ┃ ┗ authSchema.js
+┃ ┗ App.jsx
+┣ public/
+┣ package.json
+┗ vite.config.js
+
+````
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+# Clone the repository
+git clone https://github.com/jayanthanghjkl/cartify-blueprint.git
+cd cartify
+
+# Install dependencies
+npm install
+
+# Run the app locally
+npm run dev
+
+# Build for production
+npm run build
+````
+
+---
+
+## 🌐 API Integration
+
+Currently using **DummyJSON** and **Reqres** for mock data and authentication.
+You can replace these with your custom backend later or integrate a free product API like **FakeStoreAPI** or **Open E-Commerce API**.
+
+---
+
+## 💡 Inspirations
+
+* [Store Starter Template – Webflow](https://store-starter-template.webflow.io/)
+* [E-Shop Template – HTMLCodex](https://htmlcodex.com/demo/?item=1176)
+
+---
+
+## 🧠 Developer
+
+**👨‍💻 Developed by:** [Jayanthan](https://github.com/jayanthanghjkl)
+A passionate learner from **Webzenith Solutions 100 Days Bootcamp**, focused on building scalable and type-safe web applications.
+
+---
+
+## 🚀 Project Status
+
+✅ Fully functional front-end
+✅ Zustand + Zod integrated
+✅ Login/Signup dropdown added
+🚧 Backend API integration next
+
+---
+
+### 🏷️ Tags
+
+`#React` `#Vite` `#Zustand` `#Zod` `#EcommerceApp` `#WebzenithSolutions` `#WebDevelopment` `#Frontend`
